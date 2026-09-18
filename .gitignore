@@ -1,0 +1,22 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Packaging output (publish executables via GitHub Releases)
+build/
+dist/
+*.spec
+*.exe
+
+# Local maps and conversion output
+*.zip
+*.mcworld
+mcworld_output/
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
